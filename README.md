@@ -30,6 +30,14 @@ A modern, feature-rich notes application built with Kotlin and Jetpack Compose. 
 
 ## Tech Stack
 
+https://github.com/user-attachments/assets/2a174c00-b1a8-498f-8263-5ca04f4a9251
+
+![WhatsApp Image 2025-05-06 at 9 28 32 AM](https://github.com/user-attachments/assets/652b699a-286f-436e-b521-8d580cc85199)
+![Home Screen](https://github.com/user-attachments/assets/f8dcd2f9-a82c-4bb1-b69c-879f1565b904)
+![Home Screen Empty](https://github.com/user-attachments/assets/eeabbf00-30ac-4a01-a2c4-ca1da54d53ff)
+![Editor](https://github.com/user-attachments/assets/549262d9-5fe4-461d-9a4a-aa0c0e0f4dd7)
+
+
 - **Language**: Kotlin
 - **Minimum SDK**: 21
 - **Target SDK**: 33
