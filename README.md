@@ -30,18 +30,13 @@ A modern, feature-rich notes application built with Kotlin and Jetpack Compose. 
 
 ## Tech Stack
 
-https://github.com/user-attachments/assets/2a174c00-b1a8-498f-8263-5ca04f4a9251
-
-
-
-
 - **Language**: Kotlin
 - **Minimum SDK**: 21
 - **Target SDK**: 33
 - **UI Framework**: Jetpack Compose
 - **Database**: SQLite
 
-Uploading WhatsApp Video 2025-05-05 at 2.51.08 PM.mp4…
+https://github.com/user-attachments/assets/0a2d1eb9-43ff-46a6-9dbe-63f75b7847a2
 
 
 - **Architecture**: MVVM
@@ -102,9 +97,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - SQLite for local database management
 
 
-https://github.com/user-attachments/assets/50e1805f-3bfa-4447-98bf-4bc5eb4f785a
-
 
 Uploading WhatsApp Video 2025-05-05 at 2.51.08 PM.mp4…
 
+
+
+
+Uploading WhatsApp Video 2025-05-05 at 2.51.08 PM.mp4…
 
