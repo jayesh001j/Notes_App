@@ -86,7 +86,6 @@ app/
 
 ## Contributing
 
-https://github.com/user-attachments/assets/f273a251-0af2-4ed1-b9e2-6d0398b3a231
 
 
 
@@ -105,5 +104,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 https://github.com/user-attachments/assets/50e1805f-3bfa-4447-98bf-4bc5eb4f785a
 
-![Home Screen](https://github.com/user-attachments/assets/2fd1388c-cc6e-41e9-989a-07cfd29f2663)
-![Editor](https://github.com/user-attachments/assets/413d4276-dac8-47a6-8ae0-422d32f260c2)
+
+Uploading WhatsApp Video 2025-05-05 at 2.51.08 PM.mp4…
+
+
