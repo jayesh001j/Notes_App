@@ -36,7 +36,6 @@ A modern, feature-rich notes application built with Kotlin and Jetpack Compose. 
 - **UI Framework**: Jetpack Compose
 - **Database**: SQLite
 
-https://github.com/user-attachments/assets/0a2d1eb9-43ff-46a6-9dbe-63f75b7847a2
 
 
 - **Architecture**: MVVM
@@ -97,6 +96,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - SQLite for local database management
 
 
+https://github.com/user-attachments/assets/0a2d1eb9-43ff-46a6-9dbe-63f75b7847a2
 
 Uploading WhatsApp Video 2025-05-05 at 2.51.08 PM.mp4…
 
