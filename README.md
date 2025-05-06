@@ -101,7 +101,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 https://github.com/user-attachments/assets/50e1805f-3bfa-4447-98bf-4bc5eb4f785a
 
-![WhatsApp Image 2025-05-06 at 9 28 32 AM](https://github.com/user-attachments/assets/4de9415e-8715-4c25-bf33-fb84333c5a99)
 ![Home Screen](https://github.com/user-attachments/assets/2fd1388c-cc6e-41e9-989a-07cfd29f2663)
 ![Home Screen Empty](https://github.com/user-attachments/assets/ea71e756-3633-4354-8d86-f9624228a49d)
 ![Editor](https://github.com/user-attachments/assets/413d4276-dac8-47a6-8ae0-422d32f260c2)
