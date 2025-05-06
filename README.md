@@ -77,6 +77,10 @@ app/
 
 ## Contributing
 
+https://github.com/user-attachments/assets/f273a251-0af2-4ed1-b9e2-6d0398b3a231
+
+
+
 Feel free to submit issues and enhancement requests!
 
 ## License
@@ -88,3 +92,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Material Design for design guidelines
 - Jetpack Compose for modern Android UI toolkit
 - SQLite for local database management
+![WhatsApp Image 2025-05-06 at 9 28 32 AM](https://github.com/user-attachments/assets/f266795a-5183-44ae-a1b8-2c966b227fbf)
