@@ -1,3 +1,9 @@
+
+
+https://github.com/user-attachments/assets/ec0170d7-fa1b-4a3f-919e-e5ff1dc3182c
+
+![WhatsApp Image 2025-05-06 at 9 28 32 AM](https://github.com/user-attachments/assets/2c2d66d5-1200-47f5-ac04-ff41d026b349)
+![WhatsApp Image 2025-05-05 at 2 50 28 PM](https://github.com/user-attachments/assets/798f5317-885c-4cbf-8efd-481258d029eb)
 # Notes App
 
 A modern, feature-rich notes application built with Kotlin and Jetpack Compose. The app provides a beautiful and intuitive interface for creating, managing, and organizing your notes.
