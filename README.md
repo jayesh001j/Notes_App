@@ -32,10 +32,7 @@ A modern, feature-rich notes application built with Kotlin and Jetpack Compose. 
 
 https://github.com/user-attachments/assets/2a174c00-b1a8-498f-8263-5ca04f4a9251
 
-![WhatsApp Image 2025-05-06 at 9 28 32 AM](https://github.com/user-attachments/assets/652b699a-286f-436e-b521-8d580cc85199)
-![Home Screen](https://github.com/user-attachments/assets/f8dcd2f9-a82c-4bb1-b69c-879f1565b904)
-![Home Screen Empty](https://github.com/user-attachments/assets/eeabbf00-30ac-4a01-a2c4-ca1da54d53ff)
-![Editor](https://github.com/user-attachments/assets/549262d9-5fe4-461d-9a4a-aa0c0e0f4dd7)
+
 
 
 - **Language**: Kotlin
@@ -100,4 +97,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Material Design for design guidelines
 - Jetpack Compose for modern Android UI toolkit
 - SQLite for local database management
-![WhatsApp Image 2025-05-06 at 9 28 32 AM](https://github.com/user-attachments/assets/f266795a-5183-44ae-a1b8-2c966b227fbf)
+
+
+https://github.com/user-attachments/assets/50e1805f-3bfa-4447-98bf-4bc5eb4f785a
+
+![WhatsApp Image 2025-05-06 at 9 28 32 AM](https://github.com/user-attachments/assets/4de9415e-8715-4c25-bf33-fb84333c5a99)
+![Home Screen](https://github.com/user-attachments/assets/2fd1388c-cc6e-41e9-989a-07cfd29f2663)
+![Home Screen Empty](https://github.com/user-attachments/assets/ea71e756-3633-4354-8d86-f9624228a49d)
+![Editor](https://github.com/user-attachments/assets/413d4276-dac8-47a6-8ae0-422d32f260c2)
