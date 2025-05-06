@@ -40,6 +40,10 @@ https://github.com/user-attachments/assets/2a174c00-b1a8-498f-8263-5ca04f4a9251
 - **Target SDK**: 33
 - **UI Framework**: Jetpack Compose
 - **Database**: SQLite
+
+Uploading WhatsApp Video 2025-05-05 at 2.51.08 PM.mp4…
+
+
 - **Architecture**: MVVM
 
 ## Getting Started
