@@ -96,7 +96,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - SQLite for local database management
 
 <p>
-  <img align = "left"  src = "[https://github.com/SJaynesh/OptiFlow-Assets/assets/115562979/e573099d-3616-4a14-b08f-9874fd9e18dd](https://github.com/user-attachments/assets/0a2d1eb9-43ff-46a6-9dbe-63f75b7847a2).jpg" width=22% height=35% >
+  <img align = "left"  src = "[https://github.com/SJaynesh/OptiFlow-Assets/assets/115562979/e573099d-3616-4a14-b08f-9874fd9e18dd.jpg" width=22% height=35% >
   
   <img align = "left"  src = "(https://github.com/user-attachments/assets/2c2d66d5-1200-47f5-ac04-ff41d026b349.jpg" width=22% height=35% >
  
