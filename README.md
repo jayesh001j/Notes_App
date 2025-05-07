@@ -96,16 +96,17 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - SQLite for local database management
 
 <p>
-  <img align = "left"  src = "[https://github.com/SJaynesh/OptiFlow-Assets/assets/115562979/e573099d-3616-4a14-b08f-9874fd9e18dd.jpg" width=22% height=35% >
-  
-  <img align = "left"  src = "(https://github.com/user-attachments/assets/2c2d66d5-1200-47f5-ac04-ff41d026b349.jpg" width=22% height=35% >
- 
- <img align = "left"  src = "https://github.com/user-attachments/assets/798f5317-885c-4cbf-8efd-481258d029eb.jpg" width=22% height=35% >
- 
- <img  src = "https://github.com/user-attachments/assets/ec0170d7-fa1b-4a3f-919e-e5ff1dc3182c.jpg" width=22% height=35% >
+  <img align="left" src="https://github.com/SJaynesh/OptiFlow-Assets/assets/115562979/e573099d-3616-4a14-b08f-9874fd9e18dd.jpg" width="22%" height="35%">
+
+  <img align="left" src="https://github.com/user-attachments/assets/2c2d66d5-1200-47f5-ac04-ff41d026b349.jpg" width="22%" height="35%">
+
+  <img align="left" src="https://github.com/user-attachments/assets/798f5317-885c-4cbf-8efd-481258d029eb.jpg" width="22%" height="35%">
+
+  <img src="https://github.com/user-attachments/assets/ec0170d7-fa1b-4a3f-919e-e5ff1dc3182c.jpg" width="22%" height="35%">
 </p>
 
-<br><br>
+<br><br><br><br>
+
 
 
 
