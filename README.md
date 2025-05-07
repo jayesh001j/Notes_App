@@ -95,19 +95,25 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Jetpack Compose for modern Android UI toolkit
 - SQLite for local database management
 
+<p>
+  <img align = "left"  src = "[https://github.com/SJaynesh/OptiFlow-Assets/assets/115562979/e573099d-3616-4a14-b08f-9874fd9e18dd](https://github.com/user-attachments/assets/0a2d1eb9-43ff-46a6-9dbe-63f75b7847a2).jpg" width=22% height=35% >
+  
+  <img align = "left"  src = "(https://github.com/user-attachments/assets/2c2d66d5-1200-47f5-ac04-ff41d026b349.jpg" width=22% height=35% >
+ 
+ <img align = "left"  src = "https://github.com/user-attachments/assets/798f5317-885c-4cbf-8efd-481258d029eb.jpg" width=22% height=35% >
+ 
+ <img  src = "https://github.com/user-attachments/assets/ec0170d7-fa1b-4a3f-919e-e5ff1dc3182c.jpg" width=22% height=35% >
+</p>
 
-https://github.com/user-attachments/assets/0a2d1eb9-43ff-46a6-9dbe-63f75b7847a2
+<br><br>
 
 
-Uploading WhatsApp Video 2025-05-05 at 2.51.08 PM.mp4…
 
 
-Uploading WhatsApp Video 2025-05-05 at 2.51.08 PM.mp4…
 
 
-https://github.com/user-attachments/assets/ec0170d7-fa1b-4a3f-919e-e5ff1dc3182c
 
 
-![WhatsApp Image 2025-05-06 at 9 28 32 AM](https://github.com/user-attachments/assets/2c2d66d5-1200-47f5-ac04-ff41d026b349)
-![WhatsApp Image 2025-05-05 at 2 50 28 PM](https://github.com/user-attachments/assets/798f5317-885c-4cbf-8efd-481258d029eb)
+
+
 
