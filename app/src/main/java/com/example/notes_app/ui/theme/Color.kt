@@ -2,10 +2,22 @@ package com.example.notes_app.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+// Light Theme Colors
+val Purple200 = Color(0xFFBB86FC)
+val Purple500 = Color(0xFF6200EE)
+val Purple700 = Color(0xFF3700B3)
+val Teal200 = Color(0xFF03DAC5)
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+// Dark Theme Colors
+val DarkBackground = Color(0xFF121212)
+val DarkSurface = Color(0xFF1E1E1E)
+
+// Note Priority Colors
+val HighPriorityColor = Color(0xFFE57373)      // Red
+val UrgentPriorityColor = Color(0xFFFFB74D)    // Orange
+val MediumPriorityColor = Color(0xFFFFF176)    // Amber
+val NormalPriorityColor = Color(0xFFE0E0E0)    // Gray
+
+// UI Colors
+val BackgroundDark = Color(0xFF232323)
+val BackgroundLight = Color(0xFFF5F5F5)
