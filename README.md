@@ -1,4 +1,3 @@
-
 # Notes App
 
 A modern, feature-rich notes application built with Kotlin and Jetpack Compose. The app provides a beautiful and intuitive interface for creating, managing, and organizing your notes.
@@ -97,13 +96,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - SQLite for local database management
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/672ea0b7-10b2-468b-9c06-30230df7619d" width="22%" style="margin-right: 2%;">
-  <img src="https://github.com/user-attachments/assets/e4d0767b-73ca-4295-9e9f-03c5ea52f8ab" width="22%" style="margin-right: 2%;">
-  <img src="https://github.com/user-attachments/assets/bf73a2c3-f2cc-404e-af80-eb47b3ea29fa" width="22%" style="margin-right: 2%;">
-  <img src="https://github.com/user-attachments/assets/8af11dc6-191f-4625-92bd-04b601c06cc8" width="22%">
+  <img src="https://github.com/user-attachments/assets/d13e76e0-2948-46bc-89ef-b8bc79b2b881" width="22%" style="margin-right: 2%;">
+  <img src="https://github.com/user-attachments/assets/0723c522-73d8-427b-b5a0-97ee848ab8cf" width="22%" style="margin-right: 2%;">
+  <img src="https://github.com/user-attachments/assets/77123b85-aee6-41e0-bf5f-f9e97b1a4b37" width="22%" style="margin-right: 2%;">
+  <img src="https://github.com/user-attachments/assets/c5542aac-5daa-4aaa-942c-f7f044ee6c5a" width="22%">
 </p>
-
-
 
 
 
