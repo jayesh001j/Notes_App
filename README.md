@@ -96,22 +96,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Jetpack Compose for modern Android UI toolkit
 - SQLite for local database management
 
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/672ea0b7-10b2-468b-9c06-30230df7619d" width="22%" style="margin-right: 2%;">
   <img src="https://github.com/user-attachments/assets/e4d0767b-73ca-4295-9e9f-03c5ea52f8ab" width="22%" style="margin-right: 2%;">
   <img src="https://github.com/user-attachments/assets/bf73a2c3-f2cc-404e-af80-eb47b3ea29fa" width="22%" style="margin-right: 2%;">
   <img src="https://github.com/user-attachments/assets/8af11dc6-191f-4625-92bd-04b601c06cc8" width="22%">
 </p>
-<p>
-  <img align="left" src="https://github.com/user-attachments/assets/e7b63cc1-dbc5-4e45-936b-f8185881b44c.jpg" width="22%" height="35%">
-  <img align="left" src="https://github.com/user-attachments/assets/cd701106-b9c5-49fe-8c05-949b08ca9c03.jpg" width="22%" height="35%">
-  <img align="left" src="https://github.com/user-attachments/assets/2097238c-b3a7-4a49-9986-fca12c74d3b9.jpg" width="22%" height="35%">
-  <img src="https://github.com/user-attachments/assets/2b7d782f-d3b6-4319-b250-aeccbdaec8fb.jpg" width="22%" height="35%">
-</p>
-<br><br>
-
-
 
 
 
