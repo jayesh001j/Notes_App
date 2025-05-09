@@ -96,7 +96,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - SQLite for local database management
 
 <p align="start">
-  <img src="https://github.com/user-attachments/assets/c5542aac-5daa-4aaa-942c-f7f044ee6c5a" width="22%" style="margin-right: 2%;">
+  <img src="https://github.com/user-attachments/assets/31d0dcbd-003c-4742-ad75-53fc4a9314c5" width="22%" style="margin-right: 2%;">
   <img src="https://github.com/user-attachments/assets/d13e76e0-2948-46bc-89ef-b8bc79b2b881" width="22%" style="margin-right: 2%;">
   <img src="https://github.com/user-attachments/assets/0723c522-73d8-427b-b5a0-97ee848ab8cf" width="22%" style="margin-right: 2%;">
   <video src="https://github.com/user-attachments/assets/897e6fee-4000-4ddb-84e8-d23059160de6" width="22%" style="margin-right: 2%;">
