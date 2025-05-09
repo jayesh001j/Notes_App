@@ -13,10 +13,10 @@ val DarkBackground = Color(0xFF121212)
 val DarkSurface = Color(0xFF1E1E1E)
 
 // Note Priority Colors
-val HighPriorityColor = Color(0xFFE57373)      // Red
-val UrgentPriorityColor = Color(0xFFFFB74D)    // Orange
-val MediumPriorityColor = Color(0xFFFFF176)    // Amber
-val NormalPriorityColor = Color(0xFFE0E0E0)    // Gray
+val HighPriorityColor = Color(0xFFFD99FF)      // Red
+val UrgentPriorityColor = Color(0xFFFF9E9E)    // Orange
+val MediumPriorityColor = Color(0xFF91F48F)    // Amber
+val NormalPriorityColor = Color(0xFFFFF599)    // Gray
 
 // UI Colors
 val BackgroundDark = Color(0xFF232323)

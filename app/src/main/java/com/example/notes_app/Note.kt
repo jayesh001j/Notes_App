@@ -4,10 +4,10 @@ import androidx.compose.ui.graphics.Color
 import java.util.Date
 
 enum class NotePriority(val color: Color) {
-    HIGH(Color(0xFFE57373)),      // Red
-    URGENT(Color(0xFFFFB74D)),    // Orange
-    MEDIUM(Color(0xFFFFF176)),    // Amber
-    NORMAL(Color(0xFFE0E0E0))     // Gray
+    HIGH(Color(0xFFFD99FF)),      // Red
+    URGENT(Color(0xFF91F48F)),    // Orange
+    MEDIUM(Color(0xFFFFF599)),    // Amber
+    NORMAL(Color(0xFFB69CFF))     // Gray
 }
 
 data class Note(

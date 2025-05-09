@@ -42,6 +42,7 @@ import com.example.notes_app.ui.theme.AppColors
 import kotlinx.coroutines.launch
 import kotlin.math.abs
 
+@SuppressLint("StateFlowValueCalledInComposition")
 @Composable
 fun NotesListScreen(
     viewModel: NoteViewModel,
@@ -54,18 +55,21 @@ fun NotesListScreen(
     val searchQuery by viewModel.searchQuery.collectAsState()
     val scope = rememberCoroutineScope()
     val context = LocalContext.current
-    
+
     // State for selected priority filter
     var selectedPriority by remember { mutableStateOf(NotePriority.HIGH) }
-    
+
     // Filter notes by priority if needed
-    val filteredNotes = if (viewModel.selectedTab.value == com.example.notes_app.NoteTab.HIGH_PRIORITY) {
-        notes.filter { it.priority == selectedPriority }
-    } else {
-        notes
-    }
-    
-    Box(modifier = Modifier.fillMaxSize().background(AppColors.getBackgroundColor(isDarkMode))) {
+    val filteredNotes =
+        if (viewModel.selectedTab.value == com.example.notes_app.NoteTab.HIGH_PRIORITY) {
+            notes.filter { it.priority == selectedPriority }
+        } else {
+            notes
+        }
+
+    Box(modifier = Modifier
+        .fillMaxSize()
+        .background(AppColors.getBackgroundColor(isDarkMode))) {
         Column {
             TopAppBar(
                 title = {
@@ -99,8 +103,8 @@ fun NotesListScreen(
                 },
                 backgroundColor = AppColors.getSurfaceColor(isDarkMode),
                 actions = {
-                    IconButton(onClick = { 
-                        viewModel.setSearchQuery(if (searchQuery.isEmpty()) " " else "") 
+                    IconButton(onClick = {
+                        viewModel.setSearchQuery(if (searchQuery.isEmpty()) " " else "")
                     }) {
                         Icon(
                             if (searchQuery.isEmpty()) Icons.Default.Search else Icons.Default.ArrowBack,
@@ -110,7 +114,7 @@ fun NotesListScreen(
                     }
                 }
             )
-            
+
             // Show priority tabs only when in HIGH_PRIORITY tab
             if (viewModel.selectedTab.value == com.example.notes_app.NoteTab.HIGH_PRIORITY) {
                 PriorityTabLayout(
@@ -121,7 +125,7 @@ fun NotesListScreen(
                     isDarkMode = isDarkMode
                 )
             }
-            
+
             if (filteredNotes.isEmpty()) {
                 Column(
                     modifier = Modifier.fillMaxSize(),
@@ -168,9 +172,9 @@ fun NotesListScreen(
                     verticalArrangement = Arrangement.spacedBy(16.dp)
                 ) {
                     items(filteredNotes.filter { note ->
-                        searchQuery.isEmpty() || 
-                        note.title.contains(searchQuery, ignoreCase = true) || 
-                        note.content.contains(searchQuery, ignoreCase = true)
+                        searchQuery.isEmpty() ||
+                                note.title.contains(searchQuery, ignoreCase = true) ||
+                                note.content.contains(searchQuery, ignoreCase = true)
                     }, key = { it.id }) { note ->
                         val animatedScale = remember { Animatable(0.8f) }
                         LaunchedEffect(note) {
@@ -193,8 +197,8 @@ fun NotesListScreen(
                                     scaleY = animatedScale.value
                                     alpha = animatedScale.value
                                 }
-                                .swipeToDismiss { 
-                                    viewModel.deleteNote(note.id) 
+                                .swipeToDismiss {
+                                    viewModel.deleteNote(note.id)
                                 }
                                 .clickable { onNoteClick(note) }
                         ) {
@@ -247,7 +251,7 @@ fun NotesListScreen(
             contentColor = Color.White,
             modifier = Modifier
                 .align(Alignment.BottomEnd)
-                .padding(24.dp)
+                .padding(start = 24.dp, top = 24.dp, end = 24.dp, bottom = 60.dp)
                 .shadow(8.dp, CircleShape)
                 .scale(animateFloatAsState(if (notes.isEmpty()) 1.2f else 1f).value)
         ) {
@@ -259,50 +263,44 @@ fun NotesListScreen(
 @SuppressLint("UnusedTransitionTargetStateParameter")
 @Composable
 fun Modifier.swipeToDismiss(onDismiss: () -> Unit): Modifier = composed {
-    // State to track if we're swiping or not
     var isDragging by remember { mutableStateOf(false) }
-    // State to track the offset
     val offsetX = remember { Animatable(0f) }
-    // Coroutine scope for animations
     val scope = rememberCoroutineScope()
-    
-    this.pointerInput(Unit) {
-        // Detect horizontal drag gestures
-        detectHorizontalDragGestures(
-            onDragStart = { isDragging = true },
-            onDragEnd = {
-                // When drag ends, check if we've dragged far enough to dismiss
-                isDragging = false
-                scope.launch {
-                    if (abs(offsetX.value) > 100) {
-                        // If dragged far enough, call onDismiss
-                        onDismiss()
-                    } else {
-                        // Otherwise, animate back to start position
+
+    this
+        .pointerInput(Unit) {
+            detectHorizontalDragGestures(
+                onDragStart = { isDragging = true },
+                onDragEnd = {
+                    isDragging = false
+                    scope.launch {
+                        if (abs(offsetX.value) > 100) {
+                            onDismiss()
+                        } else {
+                            offsetX.animateTo(0f, spring())
+                        }
+                    }
+                },
+                onDragCancel = {
+                    // If drag is canceled, animate back to start position
+                    isDragging = false
+                    scope.launch {
                         offsetX.animateTo(0f, spring())
                     }
+                },
+                onHorizontalDrag = { change, dragAmount ->
+                    // Consume the drag event
+                    change.consume()
+                    // Update the offset
+                    scope.launch {
+                        offsetX.snapTo(offsetX.value + dragAmount)
+                    }
                 }
-            },
-            onDragCancel = {
-                // If drag is canceled, animate back to start position
-                isDragging = false
-                scope.launch {
-                    offsetX.animateTo(0f, spring())
-                }
-            },
-            onHorizontalDrag = { change, dragAmount ->
-                // Consume the drag event
-                change.consume()
-                // Update the offset
-                scope.launch {
-                    offsetX.snapTo(offsetX.value + dragAmount)
-                }
-            }
-        )
-    }
-    .offset(x = offsetX.value.dp) // Apply the offset
-    .graphicsLayer {
-        // Fade out as we swipe
-        alpha = 1f - (abs(offsetX.value) / 300f).coerceIn(0f, 0.5f)
-    }
+            )
+        }
+        .offset(x = offsetX.value.dp) // Apply the offset
+        .graphicsLayer {
+            // Fade out as we swipe
+            alpha = 1f - (abs(offsetX.value) / 300f).coerceIn(0f, 0.5f)
+        }
 }

@@ -115,10 +115,10 @@ fun NoteCard(
 @Composable
 private fun getPriorityColor(priority: NotePriority): Color {
     return when (priority) {
-        NotePriority.HIGH -> Color(0xFFE57373)    // Red
-        NotePriority.URGENT -> Color(0xFFFFB74D)  // Orange
-        NotePriority.MEDIUM -> Color(0xFFFFF176)  // Amber
-        NotePriority.NORMAL -> Color(0xFFE0E0E0)  // Gray
+        NotePriority.HIGH -> Color(0xFFFD99FF)    // Red
+        NotePriority.URGENT -> Color(0xFFFF9E9E)  // Orange
+        NotePriority.MEDIUM -> Color(0xFF91F48F)  // Amber
+        NotePriority.NORMAL -> Color(0xFFFFF599)  // Gray
     }
 }
 

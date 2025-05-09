@@ -116,28 +116,28 @@ fun NoteEditor(
             ) {
                 PriorityItem(
                     text = "High",
-                    color = Color(0xFFE57373),
+                    color = Color(0xFFFD99FF),
                     selected = priority == NotePriority.HIGH,
                     onClick = { onPriorityChange(NotePriority.HIGH) }
                 )
                 
                 PriorityItem(
                     text = "Urgent",
-                    color = Color(0xFFFFB74D),
+                    color = Color(0xFF91F48F),
                     selected = priority == NotePriority.URGENT,
                     onClick = { onPriorityChange(NotePriority.URGENT) }
                 )
                 
                 PriorityItem(
                     text = "Medium",
-                    color = Color(0xFFFFF176),
+                    color = Color(0xFFFFF599),
                     selected = priority == NotePriority.MEDIUM,
                     onClick = { onPriorityChange(NotePriority.MEDIUM) }
                 )
                 
                 PriorityItem(
                     text = "Normal",
-                    color = Color(0xFFE0E0E0),
+                    color = Color(0xFFB69CFF),
                     selected = priority == NotePriority.NORMAL,
                     onClick = { onPriorityChange(NotePriority.NORMAL) }
                 )
