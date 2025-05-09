@@ -109,7 +109,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 <br><br>
 
 <p>
-  <img align="left" src="https://github.com/jayesh001j/Notes_App/assets/bb83e370-ae21-42f3-b43f-27cc2774d928.jpg" width="22%" height="35%">
+  <img align="left" src="https://github.com/jayesh001j/Notes_App/src/bb83e370-ae21-42f3-b43f-27cc2774d928.jpg" width="22%" height="35%">
 
   <img align="left" src="https://github.com/jayesh001j/assets/80c0658d-31d4-4129-b0ab-737b2acb8c83.jpg" width="22%" height="35%">
 
